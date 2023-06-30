@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+.header {
+  font-family: Bebas Neue;
+  text-align: center;
+  font-size: x-large;
+  color: deeppink;
+}
+
+.desc {
+  font-family: Signika Negative;
+  text-align: center;
+  font-size: medium;
+  color: hotpink;
+}
+
+.vertical-menu {
+  font-family: Lilita One;
+  text-align: left;
+  font-size: larger;
+  .amp-wp-header a:active,
+  a:visited {
+    color: grey;
+  }
+}
+
+.branding {
+  font-family: Bebas Neue;
+  text-align: center;
+  font-size: x-large;
+  color: deeppink;
+}
+
+.brandingdesc {
+  font-family: Signika Negative;
+  text-align: center;
+  font-size: medium;
+  color: hotpink;
+}
+
+.vids {
+  font-family: Bebas Neue;
+  text-align: center;
+  font-size: x-large;
+  color: deeppink;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+.steps {
+  font-family: Lilita One;
+}
+
+.colorit {
+  font-family: Signika Negative;
+  text-align: center;
+  font-size: medium;
+  color: hotpink;
+}
+
+.flexx {
+  display: flex;
+  flex-direction: row;
+}
+
+.stepstobranding {
+  font-family: Signika Negative;
+  text-align: center;
+  font-size: medium;
+  color: grey;
+}
+
+.ndesc {
+  font-family: Signika Negative;
+  text-align: center;
+  font-size: medium;
+  color: hotpink;
+}
+
+.star {
+  height: 50px;
+  width: 50px;
+  background-color: hotpink;
+}
+
+@keyframes star {
+  from {
+    opacity: 1;
+    rotate: 0deg;
+  }
+
+  to {
+    opacity: 0.5;
+    rotate: 360deg;
+  }
+}
+
+.star_blink {
+  animation: star 2s linear infinite;
+}
+
+buttons {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: deeppink;
+}
+
+.headerV {
+  font-family: Bebas Neue;
+  font-size: x-large;
+  color: deeppink;
+  text-align: center;
+}
+
+.infoV {
+  font-family: Bebas Neue;
+  font-size: x-large;
+  color: deeppink;
+  text-align: center;
+}
+
+.branddealsV {
+  font-family: Bebas Neue;
+  font-size: x-large;
+  color: deeppink;
+  text-align: center;
+}
+
+.ytV {
+  font-family: Lilita One;
+  font-size: medium;
+  color: grey;
+}
+
+.branddealsdesc {
+  font-family: Signika Negative;
+  text-align: center;
+  font-size: medium;
+  color: hotpink;
+}
+
+.visionandnicheV {
+  font-family: Signika Negative;
+  text-align: center;
+  color: hotpink;
+}
